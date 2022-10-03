@@ -18,7 +18,7 @@ public class EjercicioPuntuable4 {
 		System.out.println("Por favor introduzca la altura del triangulo: ");
 		alturaUser = leeTr.nextDouble();
 		
-		//Realizamos la operacion
+		//Realizamos la operacion del area que será la base por la altura dividida entre 2
 		
 		areaUser = (baseUser * alturaUser)/2;
 		

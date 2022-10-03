@@ -24,7 +24,9 @@ public class EjercicioPuntuable3 {
 		System.out.println("Por favor introduzca el segundo numero: ");
 		segundoNumeroUsuario = lee.nextInt(); 
 		
-		//Hacemos la operacion
+		/*Hacemos la operacion donde en restante guardaremos el resto de la division entre el primer y el segundo numero
+		luego usaremos el ternario donde si restante es igual a cero imprimirá 0 
+		 en caso contrario imprimira el segundo numero menos el resto*/
 		
 		restante = primerNumeroUsuario %segundoNumeroUsuario;
 		calculoNecesario = restante == 0 ? 0 : segundoNumeroUsuario - restante;

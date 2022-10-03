@@ -23,7 +23,9 @@ public class EjercicioPuntuable2 {
 		System.out.println("Por favor introduzca el numero: ");
 		numeroUsuario = lee.nextInt(); 
 		
-		//Hacemos la operacion
+		/*en la variable restante vamos a guardar el resultado de numeroUsuario%7, que será el resto de esa division
+		en calculoNecesario guardaremos el ternario en donde si restante es igual a 0 nos colocará 0 y
+		en caso contrario nos devolverá 7 menos el restante*/
 		
 		restante = numeroUsuario %7;
 		calculoNecesario = restante == 0 ? 0 : 7 - restante;

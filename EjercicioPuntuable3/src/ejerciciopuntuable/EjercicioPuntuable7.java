@@ -31,7 +31,9 @@ Diseña un programa que muestre la suma de las tres longitudes introducidas (med
 		System.out.println("Introduzca los metros: ");
 		metros = lee.nextInt();
 		
-		//hacemos la operacion
+		/*hacemos la operacion donde mltiplicamos los metros por 100 que son los centimetros
+		mas los milimetros entre 10 más los centimetros.*/
+		
 		
 		totalLongitud = (metros*100) + milimetros/10 + centimetros;
 		

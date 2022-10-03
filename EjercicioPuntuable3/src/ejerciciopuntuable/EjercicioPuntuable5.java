@@ -27,7 +27,7 @@ public class EjercicioPuntuable5 {
 		System.out.println("Por favor introduzca el valor de x: ");
 		x = lee.nextInt();
 		
-		 //procedemos a plantear la operacion y=ax2+bx+c, la guardamos en la variable y
+		 /*procedemos a plantear la operacion y=ax2+bx+c, la guardamos en la variable y*/
 		
 		y = a*(x*x)+b*x+c;
 		

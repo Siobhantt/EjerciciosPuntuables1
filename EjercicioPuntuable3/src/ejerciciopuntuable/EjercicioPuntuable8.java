@@ -31,7 +31,7 @@ public class EjercicioPuntuable8 {
 		PRECIOINF = 15.15;
 		PRECIOADULT = 20;
 		
-		//Procedemos a multiplicar los precios por la cantidad
+		//Procedemos a multiplicar los precios por la cantidad de entradas
 		
 		totalEntradas = (infantil*PRECIOINF) + adultos*PRECIOADULT;
 		

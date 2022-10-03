@@ -9,7 +9,8 @@ public class EjercicioPuntuable6 {
 	public static void main(String[] args) {
 		//Declaramos las variables
 		
-		int segundos , minutos, horas;
+		int segundosUser , minutos, horas;
+		
 		//declaramos el scanner
 		
 		Scanner lee = new Scanner(System.in);
@@ -17,18 +18,23 @@ public class EjercicioPuntuable6 {
 		//Solicitamos al usuario que introduzca los segundos y lo guardamos en la variable segundos
 		
 		System.out.println("Por favor introduzca los segundos: ");
-		segundos = lee.nextInt();
+		segundosUser = lee.nextInt();
 		
-		//asiganmos los valores
+		/*asignamos los valores de horas y minutos sabiendo que una hora son 3600 segundos y un minuto son 60 segundos
+		*/
 		
-		horas = segundos / 3600;
-		minutos = segundos / 60;
+		horas = segundosUser / 3600; //el resultado de esta operacion me da el cociente que son la cantidad de horas
+		segundosUser = segundosUser % 3600; //el resultado de esta operacion me da el resto que son la cantidad de segundos restantes
+		
+		minutos = segundosUser / 60; //el resultado de esta operacion me da el cociente que son los minutos
+		segundosUser = segundosUser % 60; //el resultado de esta operacion me da el resto que son los segundos
+		
 		
 		//Imprimimos en pantalla
 		
 		System.out.println("HORAS: " + horas);
 		System.out.println("MINUTOS: " + minutos);
-		System.out.println("SEGUNDOS: " + segundos);
+		System.out.println("SEGUNDOS: " + segundosUser);
 		//cerramos el escanner
 		
 		lee.close();
